@@ -11,7 +11,11 @@ Caller number correction, suitable for local landlines in Iran: Sometimes, incom
 
 ## 1. دستور زیر را بر روی کنسول لینوکس ایزابل خود اجرا کنید.
 ```
-curl -L -o AsteriskCalleridFormatter.zip https://github.com/voipiran/AsteriskCalleridFormatter/archive/master.zip && unzip AsteriskCalleridFormatter.zip && cd AsteriskCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
+curl -L -o voiz-asterisk-callerid-formatter.zip https://github.com/voipiran/voiz-asterisk-callerid-formatter/archive/main.zip \
+&& unzip -o voiz-asterisk-callerid-formatter.zip \
+&& cd voiz-asterisk-callerid-formatter-main \
+&& chmod 755 install.sh \
+&& ./install.sh -y
 ```
 
 
